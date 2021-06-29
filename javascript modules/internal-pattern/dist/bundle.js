@@ -1,0 +1,1 @@
+(()=>{"use strict";class l extends e{hello(){console.log("Hello, I am child!")}}class e{hello(){console.log("Hello, I am parent!")}static createChild(){return new l}}e.createChild().hello()})();

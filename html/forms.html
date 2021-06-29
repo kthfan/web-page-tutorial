@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+	<button id="bn-01">click</button><br/>
+	<input type="text" value="yes"/><br/>
+	1: <input type="radio"/> 2: <input type="radio" checked/><br/>
+	<input type="checkbox"/><br/>
+	<textarea>text123</textarea><br/>
+	<select>
+		<option>請選擇你最愛的寵物</option>
+		<option>Dog</option>
+		<option>Cat</option>
+		<option>Hamster</option>
+		<option>Parrot</option>
+		<option>Spider</option>
+		<option>Goldfish</option>
+	</select>
+	<script>
+		//https://developer.mozilla.org/zh-TW/docs/Web/Events
+		//click, keydown, keyup, mousedown, mousemove, mouseup
+		//touchstart, touchmove, touchend, change, input
+		//dblclick, load, focus
+		var bn = document.getElementById("bn-01");
+		bn.addEventListener("click", function(){
+			alert("ok");
+		})
+	</script>
+  </body>
+</html>
