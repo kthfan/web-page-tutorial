@@ -1,10 +1,14 @@
 
 @echo off
 
-npm install -D html-webpack-plugin
-npm install -D css-loader
-npm install -D mini-css-extract-plugin
-npm install -D css-minimizer-webpack-plugin
-npm install -D terser-webpack-plugin
+npm install -D babel
+npm install -D babel-loader
+npm install -D @babel/core
+npm install -D @babel/preset-env
+npm install -D @babel/preset-typescript
+npm install -D @babel/preset-react
+npm install -D @babel/plugin-transform-runtime
+npm install @babel/runtime
+npm install react react-dom
 
 pause
